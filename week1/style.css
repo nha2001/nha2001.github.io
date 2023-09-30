@@ -100,8 +100,8 @@ main h3 {
 }
 
 .service-column {
-    flex-basis: calc(25% - 20px);
-    max-width: calc(25% - 20px);
+    flex-basis: calc(50% - 20px); 
+    max-width: calc(50% - 20px); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,14 +109,15 @@ main h3 {
 }
 
 .service-column img {
-    width: 180px;
-    height: auto;
+    max-width: 100%; 
+    height: auto; 
     margin-bottom: 10px;
 }
 
 .service-column h3 {
     margin-bottom: 5px;
 }
+
 
 /* Media Queries for Responsiveness */
 @media (max-width: 800px) {
